@@ -128,4 +128,6 @@ head "Finalizing build"
 cache_versions
 finalize_node
 
+cd $phoenix_dir
+mix assets.deploy
 #### End Buildpacks ####
