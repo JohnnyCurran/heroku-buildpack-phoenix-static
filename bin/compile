@@ -44,6 +44,7 @@ fi
 cd $build_dir/$phoenix_relative_path/$assets_path
 npm i
 node node_modules/tailwindcss/lib/cli.js --input=css/app.scss --output=../priv/static/assets/app.css --postcss
+rm -rf node_modules
 ### End Buildpack 1 ###
 
 #### Begin Elixir buildpack ####
